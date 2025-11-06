@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="Belajar Pemrograman & UI/UX dengan modul interaktif, playground, dan kuis. Gratis di GitHub Pages."
+    />
+    <title>EduDesignCode — Belajar Pemrograman & UI/UX</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1><i class="fas fa-code"></i> EduDesignCode</h1>
+        <nav>
+          <a href="#home"><i class="fas fa-home"></i> Beranda</a>
+          <a href="#lessons"><i class="fas fa-book"></i> Materi</a>
+          <a href="#playground"><i class="fas fa-play"></i> Playground</a>
+          <a href="#quiz"><i class="fas fa-question-circle"></i> Kuis</a>
+          <a href="about.html"><i class="fas fa-info-circle"></i> Tentang</a>
+          <a href="contact.html"><i class="fas fa-envelope"></i> Kontak</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="home" class="hero fade-in">
+        <h2>Belajar Pemrograman & UI/UX dengan Praktik Langsung</h2>
+        <p>
+          Modul singkat, contoh langsung, dan kuis interaktif — siap diakses
+          kapan saja. Mulai dari HTML hingga wireframing!
+        </p>
+        <a href="#lessons" class="btn-primary"
+          ><i class="fas fa-arrow-right"></i> Mulai Belajar</a
+        >
+      </section>
+
+      <section id="lessons" class="fade-in">
+        <h3><i class="fas fa-list"></i> Materi Pilihan</h3>
+        <div class="cards">
+          <div class="card">
+            <i class="fas fa-code card-icon"></i>
+            <h4>HTML Dasar</h4>
+            <p>Pelajari struktur halaman web dengan tag-tag esensial.</p>
+            <a href="lessons/html_basics.html" class="btn-secondary"
+              >Baca Lebih Lanjut</a
+            >
+          </div>
+          <div class="card">
+            <i class="fas fa-palette card-icon"></i>
+            <h4>CSS Dasar</h4>
+            <p>Styling halaman agar lebih menarik dan responsive.</p>
+            <a href="lessons/css_basics.html" class="btn-secondary"
+              >Baca Lebih Lanjut</a
+            >
+          </div>
+          <div class="card">
+            <i class="fas fa-pencil-ruler card-icon"></i>
+            <h4>Prinsip UI/UX</h4>
+            <p>Dasar desain user-friendly dengan wireframe.</p>
+            <a href="lessons/uiux_principles.html" class="btn-secondary"
+              >Baca Lebih Lanjut</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section id="playground" class="fade-in">
+        <h3><i class="fas fa-terminal"></i> Playground HTML/CSS</h3>
+        <p>Coba kode langsung di sini. Edit HTML/CSS dan lihat hasilnya!</p>
+        <div class="play">
+          <textarea
+            id="code"
+            aria-label="code editor"
+            placeholder="Tulis HTML/CSS di sini..."
+          >
+<div style="font-family: sans-serif; padding: 12px; background: linear-gradient(45deg, #6c5ce7, #a29bfe); color: white; border-radius: 8px;">
+  <h3>Halo, Dunia!</h3>
+  <p>Ini contoh dari playground EduDesignCode.</p>
+</div>
+          </textarea>
+          <iframe id="preview" sandbox="allow-scripts" title="Preview"></iframe>
+        </div>
+        <button id="runBtn" class="btn-primary">
+          <i class="fas fa-play"></i> Run
+        </button>
+      </section>
+
+      <section id="quiz" class="fade-in">
+        <h3><i class="fas fa-brain"></i> Kuis Interaktif</h3>
+        <p>Jawab pertanyaan untuk uji pemahamanmu! Pilih topik:</p>
+        <select
+          id="quizTopic"
+          class="btn-secondary"
+          style="margin-bottom: 20px"
+        >
+          <option value="html">HTML</option>
+          <option value="css">CSS</option>
+          <option value="uiux">UI/UX</option>
+        </select>
+        <div id="quizContainer"></div>
+        <button id="submitQuiz" class="btn-primary">
+          <i class="fas fa-check"></i> Submit
+        </button>
+        <div id="quizResult" class="result"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          <i class="fas fa-heart"></i> Made with ❤️ Kayla Meyriva Lesmana —
+          Hosted on GitHub Pages
+        </p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

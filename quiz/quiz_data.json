@@ -1,0 +1,48 @@
+{
+  "html": [
+    {
+      "q": "Tag HTML untuk membuat paragraf adalah...",
+      "choices": ["p", "div", "span", "a"],
+      "ans": 0
+    },
+    {
+      "q": "Element untuk link adalah...",
+      "choices": ["link", "a", "href", "url"],
+      "ans": 1
+    },
+    {
+      "q": "Tag untuk heading utama adalah...",
+      "choices": ["h1", "p", "div", "span"],
+      "ans": 0
+    }
+  ],
+  "css": [
+    {
+      "q": "Properti CSS untuk warna teks adalah...",
+      "choices": ["color", "background", "font-size", "margin"],
+      "ans": 0
+    },
+    {
+      "q": "Untuk mengatur spasi luar elemen, gunakan...",
+      "choices": ["padding", "margin", "border", "width"],
+      "ans": 1
+    }
+  ],
+  "uiux": [
+    {
+      "q": "Prinsip UI/UX yang menjaga keseragaman adalah...",
+      "choices": ["Simplicity", "Consistency", "Feedback", "Accessibility"],
+      "ans": 1
+    },
+    {
+      "q": "UX fokus pada...",
+      "choices": [
+        "Tampilan visual",
+        "Pengalaman pengguna",
+        "Kode backend",
+        "Server hosting"
+      ],
+      "ans": 1
+    }
+  ]
+}

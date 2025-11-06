@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>CSS Dasar — EduDesignCode</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="icon" href="../assets/img/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1><i class="fas fa-code"></i> EduDesignCode</h1>
+        <nav>
+          <a href="../index.html"><i class="fas fa-home"></i> Beranda</a>
+          <a href="#lessons"><i class="fas fa-book"></i> Materi</a>
+          <a href="../index.html#quiz"
+            ><i class="fas fa-question-circle"></i> Kuis</a
+          >
+          <a href="../about.html"><i class="fas fa-info-circle"></i> Tentang</a>
+          <a href="../contact.html"><i class="fas fa-envelope"></i> Kontak</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section id="lessons" class="hero fade-in">
+        <h2>CSS Dasar: Styling Halaman Web</h2>
+        <p>
+          CSS (Cascading Style Sheets) digunakan untuk mengatur tampilan HTML.
+          Pelajari properti dasar untuk membuat halaman yang menarik dan
+          responsif.
+        </p>
+        <h3>Properti Utama</h3>
+        <ul>
+          <li><code>color</code>: Warna teks.</li>
+          <li><code>background-color</code>: Warna latar belakang.</li>
+          <li><code>font-size</code>: Ukuran font.</li>
+          <li><code>margin/padding</code>: Spasi luar/dalam.</li>
+        </ul>
+        <h3>Contoh Kode</h3>
+        <pre
+          style="
+            background: var(--bg-secondary);
+            padding: 10px;
+            border-radius: 6px;
+            color: var(--text);
+          "
+        ><code>p {
+  color: #ffffff;
+  background-color: #6c5ce7;
+  font-size: 16px;
+  padding: 10px;
+}</code></pre>
+        <img
+          src="../assets/img/css-example.png"
+          alt="Contoh styling CSS"
+          style="max-width: 100%; border-radius: 8px; margin-top: 20px"
+        />
+        <p>
+          <a href="../index.html#quiz" style="color: var(--accent)"
+            >Coba Kuis CSS</a
+          >
+          |
+          <a href="uiux_principles.html" style="color: var(--accent)"
+            >Lanjut ke UI/UX</a
+          >
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>
+          <i class="fas fa-heart"></i> Made with ❤️ Kayla Meyriva Lesmana —
+          Hosted on GitHub Pages
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
